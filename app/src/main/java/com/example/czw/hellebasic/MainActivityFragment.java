@@ -1,8 +1,10 @@
 package com.example.czw.hellebasic;
 
 import android.content.Intent;
+import android.os.HandlerThread;
 import android.support.v4.app.Fragment;
 import android.os.Bundle;
+import android.util.ArrayMap;
 import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -17,6 +19,7 @@ import java.util.HashMap;
 import java.util.Iterator;
 import java.util.Map;
 import java.util.Set;
+import java.util.concurrent.Callable;
 
 /**
  * A placeholder fragment containing a simple view.
